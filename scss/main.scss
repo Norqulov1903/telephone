@@ -1,0 +1,186 @@
+@import "./_header.scss";
+@import "./_main";
+@import "./_footer.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#EDF3F8 ;
+}
+.sayt{
+    width: 100%;
+    height: 900px;
+  
+    margin: auto;
+    background-color: #EDF3F8;
+}
+@media screen and(max-width:1200px){
+    main .vebkit .vebkit__blok{
+        display: block;
+    }
+    main .vebkit .vebkit__blok .vebkit__blok__titile{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    main .vebkit .vebkit__blok .vebkit__blok__img{
+        
+        width: 100%;
+        margin: auto;
+    }
+    main .card{
+        margin-top: 300px;
+    }
+}
+@media screen and(max-width:992px) {
+    header .header__about{
+        display: block;
+        flex-direction:row-reverse;
+    }
+    header .header__about .header__about__card{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    header .header__about .header__about__card .header__about__card__input{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    header .header__about .header__about__img{
+        margin-top: 20px;
+        margin: auto;
+        width: 50%;
+    }
+    .bg .bg__img{
+        width: 100%;
+
+        img{
+            display: none;
+        }
+        #img{
+            display: block;
+            border: 1px solid black;
+            width: 400px;
+            height: 400px;
+        }
+    }
+    header .header__fq{
+        margin-left: 40px;
+    }
+    header .header__fq nav{
+        margin-left: 40px;
+    }
+    main .contact .contact__blok__img{
+        width: 50%;
+    }
+    main .vebkit .vebkit__img{
+        display: none;
+     }
+
+}
+@media screen and(max-width:768px){
+    .main .vebkit .vebkit__blok .vebkit__blok__titile{
+        margin-top: 100px;
+     }
+     main .contact .contact__blok{
+        margin-top: 100px;
+     }
+     main .vebkit .vebkit__img{
+        display: none;
+     }
+     main .vebkit .vebkit__blok .vebkit__blok__titile{
+        margin-top: 100px;
+     }
+    header .header__fq nav{
+        display: none;
+       
+    }
+    .header__button button{
+        display: none;
+    }
+    .header__button
+     #gamburg{
+        display: block;
+        background-color: red;
+    }
+   
+    header .header__about .header__about__img{
+     
+        width: 80%;
+    
+    }
+    header .header__about .header__about__card .header__about__card__title{
+        font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+/* or 117% */
+
+text-align: center;
+letter-spacing: -0.369231px;
+
+color: #36536B;
+    }
+    header .header__about .header__about__card{
+        height: auto;
+    }
+    header .header__about .header__about__card .header__about__card__input{
+        display: block !important;
+
+    }
+    header .header__about .header__about__card .header__about__card__input input{
+        width: 100%;
+    }
+    header .header__about .header__about__card .header__about__card__input button{
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 2px;
+    }
+    header .header__about .header__about__img{
+        margin-left: 200px;
+        margin: auto;
+        border: 1px solid black;
+     img{
+        margin-left: 40px;
+   
+     }
+    }
+    main .main__section{
+        display: block;
+        margin: auto;
+        width: 100%;
+        
+    }
+    main .main__section .main__section__blok{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+main .main__section{
+    height: auto;
+    margin-top: 100px;
+}
+main .main__section .main__section__blok .main__section__blok__title{
+    padding-top: 50px;
+}
+main .contact{
+    display: block;
+    width: 100%;
+}
+main .contact .contact__blok__img{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+main .contact .contact__blok{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+    
+}

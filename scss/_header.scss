@@ -1,0 +1,216 @@
+.bg{
+    width: 100%;
+    height: 600px;
+
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: right;
+    .bg__img{
+       width: 100%;
+       display: flex;
+       justify-content: right;
+       img{
+       
+       }
+    }
+}
+
+header{
+    width: 100%;
+    // height: 800px;
+  
+    position: absolute;
+    z-index: 6;
+
+    .header__card{
+        width: 85%;
+        position: absolute;
+    z-index: 6;
+
+        display: flex;
+        justify-content: space-between;
+      
+        margin:  auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        .header__button{
+            button{
+                width: 173px;
+                height: 40px;
+                font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: -0.115385px;
+    transition: all 0.5s;
+    
+    color: #FBFCFE;background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    border: none;
+            }
+             button:hover{
+                background-color: #36536B;
+                border: 3px solid #BA4270;
+                color: white;
+
+            }
+           
+        }
+    }
+    .header__fq{
+        width: 700px;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+        margin-left: 140px;
+
+        nav{
+           margin-left: 100px; 
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+        }
+        nav ul li{
+            margin-left: 20px;
+        }
+        nav ul li a{
+            display: block;
+            text-decoration: none;
+            font-family: 'Public Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #36536B;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+        }
+     
+    }
+   
+      
+        
+    
+    .header__about{
+        width:80%;
+        // height: 500px;
+        flex-direction: row;
+       
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header__about__card{
+            width:43%;
+           
+            
+            .header__about__card__title{
+                font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 72px;
+/* or 100% */
+
+letter-spacing: -0.553846px;
+margin-top: 120px;
+color: #36536B;
+
+            }
+            .header__about__card__descriptino{
+                font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #6C8294;
+margin-top: 20px;
+            }
+            span{
+                font-weight: 700;
+            }
+            .header__about__card__input{
+              width: auto;
+              
+                display: flex;
+
+                input{
+                    width: 300px;
+                    height: 40px;
+                    border-radius: 24px;
+                    background-color: white;
+                    border: none;
+                 
+                }
+                ::placeholder{
+                padding-left: 20px;       
+                }
+                button{
+                    width: 173px;
+                height: 43px;
+                margin-left: -40px;
+                font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: -0.115385px;
+    transition: all 0.5s;
+    
+    color: #FBFCFE;background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    border: none;
+                }
+                button:hover{
+                    background-color: #36536B;
+                    border: 3px solid #BA4270;
+                    color: white;
+    
+                }
+            }
+        }
+        .header__about__img{
+            margin-top: 140px;
+         
+            img{
+               
+            }
+         
+        }
+           
+        
+
+    }
+    header .header__about .header__about__card .header__about__card__title{
+        font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+/* or 112% */
+
+text-align: center;
+letter-spacing: -0.246154px;
+
+color: #36536B;
+    }
+}
+
+ 

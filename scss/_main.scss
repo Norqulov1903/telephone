@@ -1,0 +1,294 @@
+main{
+    width: 100%;
+    .main__section{
+    width: 100%;
+    height: 500px;
+    background: #1B262F;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+       .main__section__blok{
+        width: 35%;
+        height: 300px;
+        .main__section__blok__title{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            /* identical to box height, or 117% */
+
+            letter-spacing: -0.369231px;
+
+            color: #FBFCFE;
+        }
+        .main__section__blok__description{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            /* or 187% */
+            margin-top: 24px;
+
+            color: #FBFCFE;
+
+            mix-blend-mode: normal;
+
+        }
+        .main__section__blok__btn{
+            width: 130px;
+        height: 50px;  
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            /* identical to box height */
+            background-color: transparent;
+            text-align: center;
+            margin-top: 32px;
+
+
+            color: #FBFCFE;
+            border: 1px solid #FBFCFE;
+            border-radius: 24px;
+            transition: all 0.5s;
+        }
+        .main__section__blok__btn:hover{
+            background-color:#BA4270 ;
+            color: white;
+            border: none;
+        }
+        img{
+            width: 100%;
+            margin-top: 80px;
+            
+        }
+       }
+
+    }
+    .contact{
+        width: 80%;
+        height: 500px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+        .contact__blok__img{
+            width: 40%;
+            height: 400px;
+            background-color: #1B262F;
+            border-radius: 10px;
+            .contact__blok__img__hero{
+                width: 100%;
+                height: 40px;
+                background-color: #36536B;
+                border-radius: 10px 10px 0px 0px;
+                .contact__blok__img__hero__card{
+                    width: 30%;
+                    height: 40px;
+               
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    .contact__blok__img__hero__card__red{
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        background-color: #BA4270;
+                    }
+                    .contact__blok__img__hero__card__blue{
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        background-color:#6C8294  ;
+                    }
+                    .contact__blok__img__hero__card__grey{
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        background-color: gray ;
+                    }
+                 
+                }
+             
+            }
+            .contact__blok__img__description{
+                color: white;
+                padding: 40px 30px;
+            }
+        }
+        .contact__blok{
+            width: 45%;
+        
+  
+            img{
+              margin-left: -50px;
+            }
+            
+            .contact__blok__title{
+                font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.369231px;
+margin-top: 50px;
+
+color: #36536B;
+            }
+            .contact__blok__description{
+                font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+/* or 187% */
+margin-top: 24px;
+overflow: hidden;
+
+color: #6C8294;
+            }
+        }
+    }
+.vebkit{
+    width: 100%;
+
+    margin-top: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    
+
+   .vebkit__img{
+    width: 500px;
+position: absolute;
+z-index: 4;
+    right: 0px;
+
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+
+    height: 900px;
+    // background: url("../img/Bitmap\ Copy\ 2\ \(1\).png") no-repeat center center/cover;
+   }
+   .vebkit__blok{
+    width: 100%;
+    height: 700px;
+
+    position: relative;
+    z-index: 50;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    .vebkit__blok__titile{
+        width: 30%;
+        height: 200px;
+  
+
+        h3{
+            font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.369231px;
+
+color: #36536B;
+        }
+        p{
+            font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+/* or 187% */
+
+
+color: #6C8294;
+
+        }
+    }
+    .vebkit__blok__img{
+        width: 40%;
+     
+        display: flex;
+        justify-content: space-around;
+
+        img{
+         width: 100%;
+       
+        }
+    }
+   }
+}
+.card{
+    width: 90%;
+    height: 400px;
+
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+
+
+    .card__inner{
+        width: 400px;
+        height: 380px;
+        
+        h5{
+            margin-top: 32px;
+            font-family: 'Public Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+
+text-align: center;
+letter-spacing: -0.138462px;
+
+color: #36536B;
+
+        }
+        p{
+            font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+letter-spacing: -0.115385px;
+margin-top: 16px;
+
+color: #6C8294;
+        }
+      
+        .card__inner__aylana{
+            width: 110px;
+                height: 110px;
+            display: flex;
+            justify-content: center;
+            background-color: #36536B;
+            border-radius: 50%;
+            align-items: center;
+            margin-left: 150px;
+         
+        }
+    }
+}
+}
